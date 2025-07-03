@@ -15,8 +15,8 @@
             padding: 0;
             background-color: #f4f4f4;
             color: #333;
-            direction: ltr; 
-            text-align: left;
+            direction: ltr; /* Set direction to Left-to-Right for English */
+            text-align: left; /* Align text to the left */
         }
 
         /* Styling for the full-width cover image section */
@@ -26,16 +26,6 @@
             background-position: center;
             min-height: 300px; /* Adjust height as needed for the cover area */
             position: relative;
-            /* Optional: You can add an overlay here if you plan to put text on the cover later */
-            /* &::before {
-                content: '';
-                position: absolute;
-                top: 0;
-                left: 0;
-                right: 0;
-                bottom: 0;
-                background-color: rgba(0, 0, 0, 0.4);
-            } */
         }
 
         /* Styling for the area containing the logo and main title */
@@ -75,16 +65,21 @@
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
         }
-        h2, h3 { /* Existing styles for subheadings */
-            color: #0056b3;
-            text-align: left; /* Keep left aligned as before for subheadings */
-        }
+
+        /* Corrected and combined heading styles */
         h2 {
+            color: #0056b3;
             font-size: 1.8em;
             margin-top: 30px;
             border-bottom: 2px solid #eee;
             padding-bottom: 10px;
+            text-align: left; /* For subheadings */
         }
+        h3 {
+            color: #0056b3;
+            text-align: left; /* Keep left aligned as before for subheadings */
+        }
+        
         p {
             margin-bottom: 15px;
         }
@@ -105,7 +100,7 @@
             font-weight: bold;
         }
         ul li a:hover {
-                text-decoration: underline;
+            text-decoration: underline;
         }
         .bio-section {
             text-align: left;
@@ -165,7 +160,7 @@
             <h3>Connect with Me:</h3>
             <div class="social-links">
                 <a href="https://linktr.ee/redaelkailoudi" target="_blank">My Digital Hub on Linktree</a>
-                </div>
+            </div>
         </div>
         <footer>
             <p>© 2025 Launchltools. All rights reserved.</p>
