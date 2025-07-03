@@ -11,75 +11,36 @@
         body {
             font-family: 'Arial', sans-serif;
             line-height: 1.6;
-            margin: 0; /* Ensures cover spans full width */
+            margin: 20px;
             padding: 0;
             background-color: #f4f4f4;
             color: #333;
             direction: ltr; /* Set direction to Left-to-Right for English */
             text-align: left; /* Align text to the left */
         }
-
-        /* Styling for the full-width cover image section */
-        .cover-image-section {
-            background-image: url('images/couverteur.png'); /* Path to your cover image */
-            background-size: cover;
-            background-position: center;
-            min-height: 300px; /* Adjust height as needed for the cover area */
-            position: relative;
-        }
-
-        /* Styling for the area containing the logo and main title */
-        .main-header-area {
-            max-width: 800px; /* Same max-width as container */
-            margin: 20px auto; /* Centered, with some top margin below cover */
-            padding: 0 30px; /* Padding on sides to match container */
-            display: flex; /* Use flexbox to align logo and title side-by-side */
-            align-items: center; /* Vertically center items */
-            gap: 20px; /* Space between logo and title */
-        }
-
-        /* Styling for the logo image */
-        .site-logo {
-            width: 120px; /* Size of your logo */
-            height: 120px;
-            border-radius: 50%; /* Makes it circular, great for profile pics */
-            object-fit: cover; /* Ensures image fills the circle */
-            border: 3px solid #0056b3; /* A border for the logo */
-            flex-shrink: 0; /* Prevent logo from shrinking on smaller screens */
-        }
-
-        /* Styling for the main title */
-        .main-header-area h1 {
-            color: #0056b3; /* Color for the main title */
-            font-size: 2.2em; /* Slightly smaller if next to logo */
-            margin: 0; /* Remove default margin */
-            text-align: left; /* Align to left next to logo */
-            flex-grow: 1; /* Allow title to take remaining space */
-        }
-
         .container {
             max-width: 800px;
-            margin: 20px auto; /* Adjusted margin-top, centered */
+            margin: auto;
             background: #fff;
             padding: 30px;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
         }
-
-        /* Corrected and combined heading styles */
-        h2 {
+        h1, h2, h3 {
             color: #0056b3;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 15px;
+            text-align: center; /* Center align for main heading */
+        }
+        h2 {
             font-size: 1.8em;
             margin-top: 30px;
             border-bottom: 2px solid #eee;
             padding-bottom: 10px;
-            text-align: left; /* For subheadings */
+            text-align: left;
         }
-        h3 {
-            color: #0056b3;
-            text-align: left; /* Keep left aligned as before for subheadings */
-        }
-        
         p {
             margin-bottom: 15px;
         }
@@ -134,15 +95,8 @@
     </style>
 </head>
 <body>
-    <div class="cover-image-section">
-        </div>
-
-    <div class="main-header-area">
-        <img src="images/logo.png" alt="Launchltools Logo / Reda El Kailoudi Profile" class="site-logo">
-        <h1>Launchltools - Your Hub for Honest AI & Digital Marketing Tool Reviews</h1>
-    </div>
-
     <div class="container">
+        <h1>Welcome to Launchltools - Your Hub for Honest AI & Digital Marketing Tool Reviews</h1>
         <p>Welcome! At **Launchltools**, I'm dedicated to providing you with honest and in-depth reviews of the latest and most powerful digital marketing tools and products being launched. My focus is on cutting-edge AI tools and effective affiliate marketing strategies.</p>
         <p>My goal is to help you make informed decisions and identify the tools that will truly benefit your business, whether you're a beginner looking to earn money online or a seasoned professional seeking an edge.</p>
         
